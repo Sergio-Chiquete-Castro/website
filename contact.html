@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/4d0f7f23f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active" href="/ContactMe/contact.html">Contact Me</a>
+        <a href="/Projects/projects.html">Projects</a>
+        <a href="/Certificates/certificates.html">Certificates</a>
+        <a href="/HOME/index.html">Home</a>
+        <a class="name" href="#name"><em>Sergio Chiquete Castro</em></a>
+    </nav>
+
+    <div class="contact-card">
+        <div class="container-one">
+            <h1 class="header-text">A website made by me</h1>
+            <p class="sub-header-text">Building my brand, looking for internships, doing it all myself</p>
+            <div>
+                <a href="https://www.linkedin.com/in/sergiochiquete/" class="icon-link">
+                    <i class="fab fa-linkedin icons"></i>
+                </a>
+
+                <a href="mailto:your.email@example.com" class="icon-link">
+                    <i class="far fa-envelope icons"></i>
+                </a>
+
+                <a href="https://github.com/Sergio-Chiquete-Castro" target="_blank" class="icon-link">
+                    <i class="fab fa-github icons"></i>
+                </a>
+            </div>
+            <p class="contact-header">Send me an Email!</p>
+        </div>
+
+        <div class="container">
+            <h3>Contact Form</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b28e0997-66dc-4ebd-8fcb-3341f99fbabb">
+                <label for="name">First Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name..">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter email.." required>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="message" placeholder="Write something.."></textarea>
+                <button type="submit" value="" submit>Submit Form</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
